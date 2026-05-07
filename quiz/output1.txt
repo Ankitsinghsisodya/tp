@@ -1,0 +1,8 @@
+Loading Wine dataset...
+LDA accuracy : 1.0000  (generative, shared covariance)
+QDA accuracy : 1.0000  (generative, per-class covariance)
+LR  accuracy : 1.0000  (discriminative, L2 + SGD)
+
+LDA and QDA are generative - they model P(x|y) and use Bayes rule for P(y|x).
+Logistic regression is discriminative - it learns P(y|x) directly.
+Bayes risk = E[loss under optimal decision] = 1 - max_c P(y=c|x)

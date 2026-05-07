@@ -1,0 +1,17 @@
+Loading Breast Cancer Wisconsin dataset...
+
+Dataset: 569 samples, 30 features, 212 malignant / 357 benign
+
+--- Full features (30 dims) ---
+  Naive Bayes    acc=0.9027  auc=0.9787
+  LDA            acc=0.9381  auc=0.9936
+  Logistic Reg   acc=0.9912  auc=0.9996
+  Linear SVM     acc=0.9292  auc=0.9879
+  RBF SVM        acc=0.6726  auc=0.8986
+
+--- After PCA (10 components) ---
+  Naive Bayes    acc=0.8850  auc=0.9474
+  LDA            acc=0.9381  auc=0.9936
+  Logistic Reg   acc=0.9912  auc=0.9986
+  Linear SVM     acc=0.9292  auc=0.9879
+  RBF SVM        acc=0.6726  auc=0.9221
